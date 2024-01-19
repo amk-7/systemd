@@ -1,0 +1,14 @@
+[Unit]
+Description=
+After=network.target
+
+[Service]
+WorkingDirectory=
+ExecStart=
+Type=simple
+User=amk
+Group=amk
+
+[Install]
+WantedBy=default.target
+
